@@ -320,6 +320,19 @@ footer .footer-bottom .social .icon img {
   padding: 0;
 }
 
+@media screen and (max-width: 991.98px) {
+  .banner .banner-inner img {
+    display: none;
+  }
+  .banner .banner-inner span {
+    transform: rotate(0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9rem;
+    width: 100%;
+  }
+}
 .achievement {
   margin-top: 100px;
 }
