@@ -1,0 +1,17 @@
+@import "parts/variables";
+@import "parts/fonts";
+@import "parts/reset";
+@import "parts/mixin";
+@import "parts/base";
+// layouts
+@import "layouts/header";
+@import "layouts/footer";
+// end
+
+// pegas
+@import "pages/home/hero";
+
+@import "layouts/sections/banner";
+@import "layouts/sections/achievement";
+@import "layouts/sections/products";
+@import "layouts/sections/new";
