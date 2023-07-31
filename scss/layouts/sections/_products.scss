@@ -4,11 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    h3 {
-      font-size: 3.1667rem;
-      font-weight: 800;
-      color: $content;
-    }
+    font-size: 3.1667rem;
+    font-weight: 800;
+    color: $content;
   }
   .list-products {
     margin-top: 50px;

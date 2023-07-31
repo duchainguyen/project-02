@@ -380,8 +380,6 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.products .title-product h3 {
   font-size: 3.1667rem;
   font-weight: 800;
   color: #2c2c2c;
@@ -504,7 +502,7 @@ ol {
 .news .title-news h3 {
   margin-top: 128px;
   font-size: 3.1667rem;
-  font-size: 800;
+  font-weight: 800;
   color: #2c2c2c;
 }
 .news .title-news .slogan {
@@ -569,6 +567,65 @@ ol {
   }
   .news .list-news .new .item-new {
     width: 390px;
+  }
+}
+.chopsticks {
+  margin-top: 100px;
+}
+.chopsticks .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.chopsticks .title h3 {
+  width: 420px;
+  font-size: 3.1667rem;
+  font-weight: 800;
+}
+.chopsticks .title span {
+  margin-top: 24.33px;
+}
+.chopsticks .title span p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #2c2c2c;
+}
+.chopsticks .Wrap {
+  margin-top: 200px;
+  background: #fff0e7;
+}
+.chopsticks .Wrap .list-product-chopstick {
+  position: relative;
+  display: flex;
+  padding: 0 58.33px;
+  top: -100px;
+}
+.chopsticks .Wrap .list-product-chopstick .item-chopstick {
+  background: #fff;
+}
+.chopsticks .Wrap .list-product-chopstick .item-chopstick .content {
+  margin-top: 24.17px;
+  padding-left: 24.5px;
+  padding-bottom: 65px;
+}
+.chopsticks .Wrap .list-product-chopstick .item-chopstick .content h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #e05000;
+}
+.chopsticks .Wrap .list-product-chopstick .item-chopstick .content span {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1199.98px) {
+  .chopsticks .Wrap .list-product-chopstick .item-chopstick .img img {
+    width: 100%;
+  }
+  .chopsticks .Wrap .list-product-chopstick .delete {
+    display: none;
   }
 }
 
