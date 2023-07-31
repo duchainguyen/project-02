@@ -628,5 +628,116 @@ ol {
     display: none;
   }
 }
+.appellation {
+  margin-top: 113.31px;
+}
+.appellation .list-appellation {
+  padding: 0 112.5px;
+}
+.appellation .list-appellation .item-appellation {
+  display: flex;
+  gap: 15.833px;
+  padding-bottom: 38.83px;
+}
+.appellation .list-appellation .item-appellation .logo img {
+  width: 56px;
+  max-width: none;
+  height: 56px;
+}
+.appellation .list-appellation .item-appellation .content {
+  display: flex;
+  flex-direction: column;
+}
+.appellation .list-appellation .item-appellation .content .name {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.appellation .list-appellation .item-appellation .content span {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1199.98px) {
+  .appellation .list-appellation .item-appellation {
+    display: flex;
+    justify-content: center;
+  }
+  .appellation .list-appellation .item-appellation .content {
+    width: 216.667px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .appellation .list-appellation {
+    padding: 0 20px;
+  }
+}
+.contact {
+  margin-top: 130px;
+}
+.contact .logo-contact {
+  width: 439.167px;
+  height: 439.167px;
+  background: #fff0e7;
+  border-radius: 50%;
+  position: relative;
+}
+.contact .logo-contact img {
+  position: absolute;
+  top: -44px;
+  left: -30px;
+}
+.contact .form-contact .contact-title {
+  margin-bottom: 26px;
+}
+.contact .form-contact form .name {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 20px 10px;
+  margin: 0 10px;
+  margin-bottom: 23px;
+  border-radius: 7px;
+}
+.contact .form-contact form .form-input {
+  margin-bottom: 23px;
+  display: flex;
+  gap: 16px;
+}
+.contact .form-contact form .form-input div {
+  width: 287px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+}
+.contact .form-contact form .form-input div input {
+  padding: 20px 10px;
+  border-radius: 7px;
+}
+.contact .form-contact form textarea {
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 7px;
+  padding: 20px 10px;
+}
+.contact .form-contact form .form-btn {
+  margin-top: 26px;
+  display: flex;
+  justify-content: flex-end;
+}
+.contact .form-contact form .form-btn button {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 13.333px 60.667px;
+}
+
+@media screen and (max-width: 1199.98px) {
+  .contact .logo-left {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  .contact .form-contact form .form-input div {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
