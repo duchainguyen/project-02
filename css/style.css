@@ -220,7 +220,7 @@ footer .footer .footer-nav {
 }
 footer .footer .icon {
   display: flex;
-  align-content: center;
+  align-items: center;
   gap: 15px;
   padding: 6px 0;
 }
