@@ -1,0 +1,143 @@
+.guide {
+  margin-top: 100px;
+  .container-guide {
+    margin-bottom: 300px;
+    padding: 0 22.5px;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    h2 {
+      margin-bottom: 24px;
+      font-size: 3.1667rem;
+      font-size: 800;
+    }
+    p {
+      font-size: 1.333rem;
+      font-weight: 400;
+      margin-bottom: 50px;
+    }
+  }
+  .guide-stt {
+    position: relative;
+    span {
+      position: absolute;
+      z-index: 1;
+      left: 5px;
+      top: 30px;
+      //   color: $while;
+    }
+    .box-circle {
+      position: absolute;
+      left: 40px;
+      width: 123.333px;
+      height: 123.333px;
+      border-radius: 123.333px;
+      background: $orange-100;
+    }
+    p {
+      position: absolute;
+      width: 68%;
+      left: 110px;
+      top: 30px;
+    }
+  }
+
+  .stt2 {
+    .guide-stt {
+      position: relative;
+
+      p {
+        position: absolute;
+        width: 60%;
+        left: 125px;
+        top: 30px;
+      }
+    }
+  }
+  .stt3 {
+    .guide-stt {
+      position: relative;
+
+      p {
+        position: absolute;
+        width: 60%;
+        left: 125px;
+        top: 30px;
+      }
+    }
+  }
+  .stt4 {
+    .guide-stt {
+      position: relative;
+
+      p {
+        position: absolute;
+        width: 60%;
+        left: 125px;
+        top: 30px;
+      }
+    }
+  }
+  .manipulate {
+    .content {
+      width: 78%;
+      margin-left: 112px;
+      position: relative;
+      p {
+        padding-top: 90px;
+        text-align: start;
+        padding-left: 62.5px;
+        font-size: 2rem;
+        font-weight: 400;
+        color: $textColor;
+      }
+      &::after {
+        content: "";
+        width: 8px;
+        height: 350px;
+        left: 0;
+        top: -50px;
+        position: absolute;
+        background: $green-800;
+      }
+    }
+    .logo {
+      width: 36vw;
+    }
+  }
+}
+
+@media screen and (max-width: 1199.98px) {
+  .guide {
+    .container-guide {
+      margin-bottom: 150px;
+    }
+    margin-bottom: 150px;
+    .stt3,
+    .stt4 {
+      margin-top: 150px;
+    }
+    .manipulate {
+      .content {
+        margin: 0 auto;
+        p {
+          text-align: center;
+          padding-left: 0;
+        }
+        &::after {
+          display: none;
+        }
+      }
+      .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

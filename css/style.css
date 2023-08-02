@@ -66,11 +66,6 @@ ol {
   align-items: center;
 }
 
-@media screen and (max-width: 1199.98px) {
-  .container {
-    padding: 0 15px;
-  }
-}
 .btn {
   padding: 13.333px 11.667px;
   background: #46b20f;
@@ -1223,6 +1218,134 @@ footer .footer-bottom .social .icon img {
   }
   .product-chopsticks .Wrap .list-product-chopstick .delete {
     display: none;
+  }
+}
+.guide {
+  margin-top: 100px;
+}
+.guide .container-guide {
+  margin-bottom: 300px;
+  padding: 0 22.5px;
+}
+.guide .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.guide .content h2 {
+  margin-bottom: 24px;
+  font-size: 3.1667rem;
+  font-size: 800;
+}
+.guide .content p {
+  font-size: 1.333rem;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.guide .guide-stt {
+  position: relative;
+}
+.guide .guide-stt span {
+  position: absolute;
+  z-index: 1;
+  left: 5px;
+  top: 30px;
+}
+.guide .guide-stt .box-circle {
+  position: absolute;
+  left: 40px;
+  width: 123.333px;
+  height: 123.333px;
+  border-radius: 123.333px;
+  background: #fff0e7;
+}
+.guide .guide-stt p {
+  position: absolute;
+  width: 68%;
+  left: 110px;
+  top: 30px;
+}
+.guide .stt2 .guide-stt {
+  position: relative;
+}
+.guide .stt2 .guide-stt p {
+  position: absolute;
+  width: 60%;
+  left: 125px;
+  top: 30px;
+}
+.guide .stt3 .guide-stt {
+  position: relative;
+}
+.guide .stt3 .guide-stt p {
+  position: absolute;
+  width: 60%;
+  left: 125px;
+  top: 30px;
+}
+.guide .stt4 .guide-stt {
+  position: relative;
+}
+.guide .stt4 .guide-stt p {
+  position: absolute;
+  width: 60%;
+  left: 125px;
+  top: 30px;
+}
+.guide .manipulate .content {
+  width: 78%;
+  margin-left: 112px;
+  position: relative;
+}
+.guide .manipulate .content p {
+  padding-top: 90px;
+  text-align: start;
+  padding-left: 62.5px;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #2c2c2c;
+}
+.guide .manipulate .content::after {
+  content: "";
+  width: 8px;
+  height: 350px;
+  left: 0;
+  top: -50px;
+  position: absolute;
+  background: #46b20f;
+}
+.guide .manipulate .logo {
+  width: 36vw;
+}
+
+@media screen and (max-width: 1199.98px) {
+  .guide {
+    margin-bottom: 150px;
+  }
+  .guide .container-guide {
+    margin-bottom: 150px;
+  }
+  .guide .stt3,
+  .guide .stt4 {
+    margin-top: 150px;
+  }
+  .guide .manipulate .content {
+    margin: 0 auto;
+  }
+  .guide .manipulate .content p {
+    text-align: center;
+    padding-left: 0;
+  }
+  .guide .manipulate .content::after {
+    display: none;
+  }
+  .guide .manipulate .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
