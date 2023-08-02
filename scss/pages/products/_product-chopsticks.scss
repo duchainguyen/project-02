@@ -1,0 +1,71 @@
+.product-chopsticks {
+  margin-top: 258px;
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    h3 {
+      width: 420px;
+      font-size: 3.1667rem;
+      font-weight: 800;
+    }
+    span {
+      margin-top: 24.33px;
+      p {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: $content;
+      }
+    }
+  }
+  .Wrap {
+    margin-top: 200px;
+    background: $orange-100;
+    .list-product-chopstick {
+      position: relative;
+      display: flex;
+      padding: 0 58.33px;
+      top: -100px;
+
+      .item-chopstick {
+        background: $while;
+        .content {
+          margin-top: 24.17px;
+          padding-left: 24.5px;
+          padding-bottom: 65px;
+          h4 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: $orange-700;
+          }
+          span {
+            font-size: 1.6rem;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1199.98px) {
+  .product-chopsticks {
+    margin-top: 60px;
+    .Wrap {
+      .list-product-chopstick {
+        .item-chopstick {
+          .img {
+            img {
+              width: 100%;
+            }
+          }
+        }
+        .delete {
+          display: none;
+        }
+      }
+    }
+  }
+}

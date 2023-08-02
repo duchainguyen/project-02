@@ -1,0 +1,72 @@
+.mission {
+  margin-top: 150px;
+  .box {
+    width: 400px;
+    height: 400px;
+    border-radius: 400px;
+    background: $green-200;
+    position: relative;
+    img {
+      position: absolute;
+      left: 150px;
+      top: -70px;
+      z-index: 1;
+    }
+    .box-orange {
+      position: absolute;
+      width: 220px;
+      height: 220px;
+      border-radius: 220px;
+      background: $orange-200;
+      bottom: 0;
+      right: -65px;
+    }
+  }
+  .mission-text {
+    h2 {
+      // padding-top: 50px;
+      font-size: 3.1667rem;
+      font-weight: 800;
+    }
+    p {
+      width: 65%;
+      padding-top: 26px;
+      font-size: 1.333rem;
+      font-weight: 400;
+    }
+  }
+}
+
+@media screen and (max-width: 1199.98px) {
+  .mission {
+    margin-top: 50px;
+    .box-left {
+      display: flex;
+      justify-content: center;
+      .box {
+        img {
+          left: 0;
+        }
+      }
+    }
+
+    .mission-text {
+      padding-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    }
+  }
+}

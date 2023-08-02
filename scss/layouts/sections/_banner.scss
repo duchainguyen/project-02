@@ -1,27 +1,32 @@
 .banner {
-  .introduce {
-    margin-top: 218px;
-    h3 {
-      font-size: 3.2rem;
-      font-weight: 800;
-      width: 514px;
-    }
-    h2 {
-      font-weight: 800;
-      font-size: 4.333rem;
-    }
-    p {
-      margin-top: 27.67px;
-      width: 450px;
-      font-size: 1.6rem;
-      font-weight: 400;
+  .introduce-content {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    .introduce {
+      h3 {
+        font-size: 3.2rem;
+        font-weight: 800;
+        width: 514px;
+      }
+      h2 {
+        font-weight: 800;
+        font-size: 4.333rem;
+      }
+      p {
+        margin-top: 27.67px;
+        width: 450px;
+        font-size: 1.6rem;
+        font-weight: 400;
+      }
     }
   }
+
   .banner-inner {
     position: relative;
     display: flex;
     justify-content: flex-end;
-    width: 749.55px;
+    width: 49.5vw;
     height: 708px;
     background: $green-200;
     img {

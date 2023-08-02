@@ -1,0 +1,34 @@
+.product-greenchop {
+  margin-top: 174px;
+  background-image: url("../images/icons/product_green.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  filter: brightness(0.8);
+  .product {
+    color: $while;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .content {
+      text-align: center;
+      margin-top: 50px;
+      width: 62%;
+    }
+  }
+}
+
+@media screen and (max-width: 1199.98px) {
+  .product-greenchop {
+    .product {
+      margin-top: 300px;
+      color: $textColor;
+      .content {
+        // display: none;
+        // opacity: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,127 @@
+.pages-products {
+  margin-top: 100px;
+  .title-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.1667rem;
+    font-weight: 800;
+    color: $content;
+  }
+  .list-products {
+    margin-top: 50px;
+    padding: 0 133px;
+    .row-1 {
+      &:nth-child(2) {
+        .item-product {
+          background: $green-300;
+        }
+      }
+    }
+    .row-2 {
+      margin-top: 300px;
+      .row-2-active {
+        background: $green-300;
+      }
+    }
+    .item-product {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 269.316px;
+      height: 269.316px;
+      border-radius: 269.316px;
+      background: $orange-300;
+      position: relative;
+      .image-product {
+        width: 240.117px;
+        height: 241.148px;
+        top: 90px;
+        position: absolute;
+      }
+    }
+    .detail-product {
+      position: absolute;
+      bottom: -180px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      span {
+        text-align: center;
+        margin-bottom: 29px;
+        p {
+          font-weight: 700;
+          font-size: 2.5rem;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 1.667rem;
+        .price {
+          font-size: 2.333rem;
+          font-weight: 600;
+        }
+      }
+    }
+    .btn {
+      position: absolute;
+      bottom: -250px;
+      a {
+        color: $while;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+    }
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .pages-products {
+    .list-products {
+      display: flex;
+      justify-content: center;
+      column-gap: 50px;
+    }
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .pages-products {
+    .list-products {
+      .row-1,
+      .row-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .row-1 {
+        &:nth-child(3) {
+          margin-top: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .achievement {
+    .list-achievement {
+      padding: 0 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 905px) {
+  .pages-products {
+    .list-products {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      .row-1 {
+        &:nth-child(2) {
+          margin-top: 300px;
+        }
+      }
+    }
+  }
+}

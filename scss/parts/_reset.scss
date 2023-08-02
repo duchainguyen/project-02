@@ -14,6 +14,7 @@ body {
   font-size: $fontSize;
   line-height: 1.25;
   color: $textColor;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
