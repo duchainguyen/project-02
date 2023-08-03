@@ -1,0 +1,114 @@
+.Hot-news {
+  margin-top: 133px;
+  margin-bottom: 300px;
+  .New1 {
+    .img-new {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .title {
+      padding-top: 27px;
+      padding-left: 90px;
+      span {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: $green-800;
+      }
+      h2 {
+        padding-top: 10px;
+        font-size: 2.333rem;
+        font-weight: 700;
+        color: $textColor;
+      }
+      p {
+        padding-top: 27px;
+        font-size: 1.3333rem;
+        font-weight: 400;
+        color: $textColor;
+        width: 85%;
+      }
+      .btn-news {
+        padding-top: 50px;
+        .btn-new {
+          display: flex;
+          padding: 11.667px 21.667px;
+          justify-content: center;
+          align-items: center;
+          gap: 3.333px;
+          border-radius: 6.667px;
+          border: 0.833px solid $green-800;
+        }
+      }
+    }
+  }
+  .New2 {
+    // padding: 0 113px;
+    .title {
+      padding-top: 73px;
+      padding-left: 123px;
+      span {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: $green-800;
+      }
+      h2 {
+        padding-top: 10px;
+        font-size: 2.333rem;
+        font-weight: 700;
+        color: $textColor;
+      }
+      p {
+        padding-top: 27px;
+        font-size: 1.3333rem;
+        font-weight: 400;
+        color: $textColor;
+        width: 85%;
+      }
+      .btn-news {
+        padding-top: 50px;
+        .btn-new {
+          display: flex;
+          padding: 11.667px 21.667px;
+          justify-content: center;
+          align-items: center;
+          gap: 3.333px;
+          border-radius: 6.667px;
+          border: 0.833px solid $green-800;
+        }
+      }
+    }
+    .img-new {
+      position: relative;
+      img {
+        padding-left: 55px;
+        position: absolute;
+        top: -100px;
+        width: 460px;
+        height: 540px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .Hot-news {
+    margin-bottom: 0;
+    .New1 {
+      .img-new {
+        justify-content: center;
+      }
+      .title {
+        text-align: center;
+        padding-left: 90px;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    }
+    .New2 {
+      display: none;
+    }
+  }
+}

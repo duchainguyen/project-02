@@ -70,6 +70,9 @@
 
 @media screen and (max-width: 991.98px) {
   .header {
+    .row {
+      margin: 0;
+    }
     .menu-toggle {
       display: block;
       label {
