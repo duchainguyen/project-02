@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-4 menu-toggle">
+            <label for="menu-toggle">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+          </div>
+          <div class="col-4 col-lg-2">
+            <div class="logo">
+              <a href="http://127.0.0.1:5500/index.html">
+                <img src="./images/logo/logo.png" alt=""
+              /></a>
+            </div>
+            <!-- end logo -->
+          </div>
+          <!-- end col-3 -->
+
+          <!-- col 9 -->
+          <div class="col-4 col-lg-10">
+            <div class="header-nav">
+              <input type="checkbox" id="menu-toggle" hidden />
+              <label for="menu-toggle" class="menu-overlay"></label>
+              <nav class="menu">
+                <ul>
+                  <li>
+                    <a href="http://127.0.0.1:5500/index.html">Trang Chủ</a>
+                  </li>
+                  <li>
+                    <a href="http://127.0.0.1:5500/greenchop.html"
+                      >Về Greenchop</a
+                    >
+                  </li>
+                  <li>
+                    <a href="http://127.0.0.1:5500/products.html">Sản phẩm</a>
+                  </li>
+                  <li>
+                    <a href="http://127.0.0.1:5500/news.html">Tin tức</a>
+                  </li>
+                  <li class="active">
+                    <a href="http://127.0.0.1:5500/contact.html">Liên hệ</a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- end menu -->
+              <div class="cart-icon">
+                <a href="#"
+                  ><img src="./images/cart.svg" alt="" /><span>3</span></a
+                >
+              </div>
+              <!-- end cart-icon -->
+              <div class="search-icon">
+                <a href="#"><img src="./images/search.svg" alt="" /></a>
+              </div>
+              <!-- end search-icon -->
+            </div>
+            <!-- end header-nav -->
+          </div>
+          <!-- end col-9 -->
+        </div>
+      </div>
+    </header>
+    <div class="map">
+      <img src="./images/News/contact.svg" alt="" />
+    </div>
+
+    <section class="pages-contact">
+      <div class="container contact-container">
+        <div class="row">
+          <div class="col-lg-5 contact-text">
+            <h2>Liên hệ</h2>
+            <p class="Time-frame">Đặt hàng trực tuyến (8h-22h)</p>
+            <div class="icon">
+              <img src="./images/icons/alarm.svg" alt="" /><span
+                >Thứ 2 - Thứ 6</span
+              >
+            </div>
+            <div class="icon">
+              <img src="./images/icons/phone_outline.svg" alt="" /><span
+                >091 1717 222</span
+              >
+            </div>
+            <div class="icon">
+              <img src="./images/icons/mail.svg" alt="" /><span
+                >greenchopvn@gmail.com</span
+              >
+            </div>
+            <div class="icon">
+              <img src="./images/icons/earth.svg" alt="" /><span
+                >Greenchop.vn</span
+              >
+            </div>
+            <div class="icon">
+              <img src="./images/icons/map.svg" alt="" /><span
+                >428 Điện Biên Phủ, P11, <br />
+                Quận 10, TPHCM</span
+              >
+            </div>
+          </div>
+          <div class="col-lg-7 form-contact">
+            <div class="contact-title">
+              <h4>
+                Bạn có bất kì thắc mắc nào. <br />
+                Hãy để lại tin nhắn cho chúng tôi nhé!
+              </h4>
+            </div>
+            <form action="" method="get">
+              <div class="row">
+                <div class="col-lg-12 name">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Tên của bạn"
+                  />
+                </div>
+              </div>
+              <div class="form-input">
+                <div>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="email"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    name="sdt"
+                    id="sdt"
+                    placeholder="Số điện thoại"
+                  />
+                </div>
+              </div>
+              <textarea
+                name="mess"
+                id="mess"
+                cols="30"
+                rows="10"
+                placeholder="nội dung..."
+              ></textarea>
+              <div class="form-btn">
+                <button class="btn" type="submit">Gửi</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- appellation -->
+    <section class="appellation">
+      <div class="container">
+        <div class="row list-appellation">
+          <div class="col-6 col-xl-4">
+            <div class="item-appellation">
+              <div class="logo">
+                <img src="./images/icons/quality-orange.svg" alt="" />
+              </div>
+              <div class="content">
+                <span class="name">Chất liệu an toàn</span>
+                <span
+                  >Phần đầu đũa được làm bằng bằng gỗ tre, đảm bảo cho sức khỏe
+                  người dùng</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-xl-4">
+            <div class="item-appellation">
+              <div class="logo">
+                <img src="./images/icons/guard.svg" alt="" />
+              </div>
+              <div class="content">
+                <span class="name">Vệ sinh và khử khuẩn</span>
+                <span
+                  >Đầu đũa mới 100% mỗi bữa ăn, không chung đụng đầu đũa với bất
+                  kì ai khác.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-xl-4">
+            <div class="item-appellation">
+              <div class="logo">
+                <img src="./images/icons/vote-like.svg" alt="" />
+              </div>
+              <div class="content">
+                <span class="name">Tiện lợi</span>
+                <span>Thao tác tháo lắp nhanh gọn và đơn giản</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-xl-4">
+            <div class="item-appellation">
+              <div class="logo">
+                <img src="./images/icons/pig.svg" alt="" />
+              </div>
+              <div class="content">
+                <span class="name">Tiết kiệm</span>
+                <span>Giá thành đầu đũa cạnh tranh và hợp lý.</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-xl-4">
+            <div class="item-appellation">
+              <div class="logo">
+                <img src="./images/icons/like.svg" alt="" />
+              </div>
+              <div class="content">
+                <span class="name">Độc quyền</span>
+                <span
+                  >GreenChop là sản phẩm đũa thay đầu duy nhất trên thị trường
+                  Việt Nam hiện tại</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-xl-4">
+            <div class="item-appellation">
+              <div class="logo">
+                <img src="./images/icons/car.svg" alt="" />
+              </div>
+              <div class="content">
+                <span class="name">Giao hàng nhanh</span>
+                <span>Giao hàng trong 24h </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <footer>
+      <div class="container footer">
+        <div class="row">
+          <div class="col-6 col-xl-3 logo">
+            <div class="logo-footer">
+              <img src="./images/logo/logo.png" alt="" />
+            </div>
+            <span>GreenChop là bạn đồng hành của người tiêu dùng</span>
+          </div>
+          <div class="col-6 col-xl-3">
+            <div class="footer-title">
+              <span>Trang chủ</span>
+            </div>
+            <div class="footer-nav">Về greenchop</div>
+            <div class="footer-nav">Sản phẩm</div>
+            <div class="footer-nav">Tin tức</div>
+          </div>
+          <div class="col-6 col-xl-3">
+            <div class="footer-title">
+              <span>Hỗ trợ</span>
+            </div>
+            <span>Đặt hàng trực tuyến (8h-22h)</span>
+            <div class="icon">
+              <img src="./images/icons/alarm.svg" alt="" /><span
+                >Thứ 2 - Thứ 6</span
+              >
+            </div>
+            <div class="icon">
+              <img src="./images/icons/phone_outline.svg" alt="" /><span
+                >091 1717 222</span
+              >
+            </div>
+          </div>
+          <div class="col-6 col-xl-3">
+            <div class="footer-title">
+              <span>Liên hệ</span>
+            </div>
+            <div class="icon">
+              <img src="./images/icons/mail.svg" alt="" /><span
+                >greenchopvn@gmail.com</span
+              >
+            </div>
+            <div class="icon">
+              <img src="./images/icons/earth.svg" alt="" /><span
+                >Greenchop.vn</span
+              >
+            </div>
+            <div class="icon">
+              <img src="./images/icons/map.svg" alt="" /><span
+                >428 Điện Biên Phủ, P11, Quận 10, TPHCM</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <div class="logo-footer-left">
+          <img src="./images/images/verify.png" alt="" />
+        </div>
+        <div class="social">
+          <div class="icon ytb">
+            <img src="./images/icons/youtube.svg" alt="" />
+          </div>
+          <div class="icon fb">
+            <img src="./images/icons/facebook.svg" alt="" />
+          </div>
+          <div class="icon inta">
+            <img src="./images/icons/instagram.svg" alt="" />
+          </div>
+          <div class="icon tw">
+            <img src="./images/icons/twitter.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

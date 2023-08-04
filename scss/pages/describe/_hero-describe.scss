@@ -1,0 +1,15 @@
+.hero-describe {
+  height: 83.3333px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $green-100;
+  .title-describe {
+    font-size: 1.6667rem;
+    font-weight: 400;
+    color: $textColor;
+    span {
+      color: $green-800;
+    }
+  }
+}
