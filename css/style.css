@@ -1263,10 +1263,13 @@ footer .footer-bottom .social .icon img {
   position: relative;
 }
 .guide .guide-stt span {
+  font-size: 8.3333rem;
+  font-weight: 800;
+  color: #ccc;
   position: absolute;
   z-index: 1;
   left: 5px;
-  top: 30px;
+  top: 10px;
 }
 .guide .guide-stt .box-circle {
   position: absolute;
@@ -1361,6 +1364,26 @@ footer .footer-bottom .social .icon img {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .guide .stt1 .guide-stt span,
+  .guide .stt2 .guide-stt span,
+  .guide .stt3 .guide-stt span,
+  .guide .stt4 .guide-stt span {
+    left: 50px;
+    top: -35px;
+  }
+  .guide .stt1 .guide-stt p,
+  .guide .stt2 .guide-stt p,
+  .guide .stt3 .guide-stt p,
+  .guide .stt4 .guide-stt p {
+    left: 45px;
+    top: 65px;
+  }
+  .guide .stt1,
+  .guide .stt2 {
+    margin-bottom: 110px;
   }
 }
 .principle {

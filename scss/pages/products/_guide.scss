@@ -24,10 +24,14 @@
   .guide-stt {
     position: relative;
     span {
+      font-size: 8.3333rem;
+      font-weight: 800;
+      color: #ccc;
+      // border: 1px solid #ccc;
       position: absolute;
       z-index: 1;
       left: 5px;
-      top: 30px;
+      top: 10px;
       //   color: $while;
     }
     .box-circle {
@@ -138,6 +142,30 @@
         justify-content: center;
         align-items: center;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .guide {
+    .stt1,
+    .stt2,
+    .stt3,
+    .stt4 {
+      .guide-stt {
+        span {
+          left: 50px;
+          top: -35px;
+        }
+        p {
+          left: 45px;
+          top: 65px;
+        }
+      }
+    }
+    .stt1,
+    .stt2 {
+      margin-bottom: 110px;
     }
   }
 }
