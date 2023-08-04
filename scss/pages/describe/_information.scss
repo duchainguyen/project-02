@@ -5,10 +5,18 @@
     justify-content: center;
     align-items: center;
     gap: 34px;
+    border-bottom: 1.667px solid $grey-500;
+    margin: 0 312px;
     h3 {
       font-size: 2rem;
       font-weight: 600;
       color: #000;
+    }
+    .active {
+      a {
+        // color: $primaryColor;
+        border-bottom: 1.667px solid $primaryColor;
+      }
     }
   }
   .info {
@@ -52,6 +60,9 @@
 
 @media screen and (max-width: 849.98px) {
   .information {
+    .title {
+      margin: 0;
+    }
     .info {
       padding: 0;
     }

@@ -125,3 +125,13 @@
     }
   }
 }
+@media screen and (max-width: 500px) {
+  .pages-products {
+    .list-products {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: inherit;
+    }
+  }
+}
