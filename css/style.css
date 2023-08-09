@@ -2139,5 +2139,103 @@ footer .footer-bottom .social .icon img {
     flex-direction: inherit;
   }
 }
+.title-details {
+  margin-top: 136px;
+}
+.title-details .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+.title-details .title h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+.title-details .title .active a, .title-details .title .header .header-nav .menu ul li:hover a, .header .header-nav .menu ul .title-details .title li:hover a {
+  border-bottom: 1.667px solid #46b20f;
+}
+.title-details .appellation-row-1 {
+  padding: 0 116px;
+}
+.title-details .appellation-row-1 .appellation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.title-details .appellation-row-1 .appellation .logo img {
+  width: 87px;
+  height: 90px;
+}
+.title-details .appellation-row-1 .appellation .content h3 {
+  padding-top: 29px;
+  padding-bottom: 18px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+.title-details .appellation-row-1 .appellation .content p {
+  width: 250px;
+  font-size: 1.333rem;
+  font-weight: 400;
+  color: #2c2c2c;
+  height: 74px;
+}
+.title-details .appellation-row-2 {
+  padding: 0 323px;
+}
+.title-details .appellation-row-2 .appellation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.title-details .appellation-row-2 .appellation .logo img {
+  width: 87px;
+  height: 90px;
+}
+.title-details .appellation-row-2 .appellation .content h3 {
+  padding-top: 29px;
+  padding-bottom: 18px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+.title-details .appellation-row-2 .appellation .content p {
+  width: 250px;
+  font-size: 1.333rem;
+  font-weight: 400;
+  color: #2c2c2c;
+  height: 74px;
+}
+
+@media screen and (max-width: 1170px) {
+  .title-details .appellation-row-1 {
+    padding: 0 100px;
+  }
+  .title-details .appellation-row-2 {
+    padding: 0 180px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .title-details .appellation-row-1 .appellation:nth-child(3) {
+    display: none;
+  }
+  .title-details .appellation-row-2 {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 699.98px) {
+  .title-details .appellation-row-1 {
+    padding: 0;
+  }
+  .title-details .appellation-row-2 {
+    padding: 0;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

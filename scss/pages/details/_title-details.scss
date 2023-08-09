@@ -1,0 +1,120 @@
+.title-details {
+  margin-top: 136px;
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    h3 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: $textColor;
+    }
+    .active {
+      a {
+        // color: $primaryColor;
+        border-bottom: 1.667px solid $primaryColor;
+      }
+    }
+  }
+  .appellation-row-1 {
+    padding: 0 116px;
+    .appellation {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      .logo {
+        img {
+          width: 87px;
+          height: 90px;
+        }
+      }
+      .content {
+        h3 {
+          padding-top: 29px;
+          padding-bottom: 18px;
+          font-size: 1.6rem;
+          font-weight: 600;
+          color: $content;
+        }
+        p {
+          width: 250px;
+          font-size: 1.333rem;
+          font-weight: 400;
+          color: $content;
+          height: 74px;
+        }
+      }
+    }
+  }
+  .appellation-row-2 {
+    padding: 0 323px;
+    .appellation {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      .logo {
+        img {
+          width: 87px;
+          height: 90px;
+        }
+      }
+      .content {
+        h3 {
+          padding-top: 29px;
+          padding-bottom: 18px;
+          font-size: 1.6rem;
+          font-weight: 600;
+          color: $content;
+        }
+        p {
+          width: 250px;
+          font-size: 1.333rem;
+          font-weight: 400;
+          color: $content;
+          height: 74px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .title-details {
+    .appellation-row-1 {
+      padding: 0 100px;
+    }
+    .appellation-row-2 {
+      padding: 0 180px;
+    }
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .title-details {
+    .appellation-row-1 {
+      .appellation {
+        &:nth-child(3) {
+          display: none;
+        }
+      }
+    }
+    .appellation-row-2 {
+      padding: 0 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 699.98px) {
+  .title-details {
+    .appellation-row-1 {
+      padding: 0;
+    }
+    .appellation-row-2 {
+      padding: 0;
+    }
+  }
+}
